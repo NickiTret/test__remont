@@ -1,0 +1,27 @@
+.btn {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.btn-main {
+  color: #ffffff;
+  padding: 15px 30px;
+  background: #f9572e;
+  box-shadow: 0px 7px 15px rgba(249, 87, 46, 0.6);
+  border-radius: 50px;
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.btn-form {
+  width: 100%;
+  max-width: 250px;
+  margin: 0 auto;
+  margin-bottom: 22px;
+}

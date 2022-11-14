@@ -1,0 +1,47 @@
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 48px 0;
+  z-index: 200;
+  @media (max-width:1537px) {
+    padding:15px 0;
+  }
+  &-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+    padding: 0 115px;
+    @media (max-width:1537px) {
+      padding: 0 15px;
+    }
+  }
+  &-contacts {
+    display: flex;
+    align-items: center;
+    transition: color .2s ease-in-out;
+    color: #000000;
+    @media (max-width:1537px) {
+      margin-right: 15px;
+    }
+    & svg {
+      margin-right: 9px;
+      font-weight: 400;
+      font-size: 21px;
+      line-height: 25px;
+      color: #000000;
+    }
+    &:hover {
+        color: #f9572e;
+      }
+  }
+  
+  @media (max-width:537px) {
+    &-logo img {
+      width: 150px;
+    }
+  }
+}
